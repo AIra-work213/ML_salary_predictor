@@ -1,0 +1,13 @@
+version: '1.0'
+
+services:
+  server:
+    build: ./server
+    container_name: server_model
+    ports:
+      - "8000:8000"
+  app:
+    build: ./app
+    container_name: telegram_bot
+    depends_on:
+      - server
