@@ -1,3 +1,7 @@
 /venv
 download.py
 train.csv
+__pycache__/
+model_weights_24_34.pth
+model_weights.pth
+train_cleaned.csv
