@@ -1,0 +1,20 @@
+{
+  "initial_rows": 561989,
+  "config": {
+    "min_salary": 20000,
+    "max_salary": 400000,
+    "min_description_len": 300,
+    "min_skills_count": 2,
+    "exclude_no_experience": false,
+    "random_state": 42
+  },
+  "after_title_filter": 561987,
+  "after_salary_parse": 358048,
+  "after_salary_bounds": 333322,
+  "after_experience_filter": 333322,
+  "after_description_filter": 319028,
+  "after_skills_filter": 190831,
+  "after_dedup": 169911,
+  "final_rows": 169911,
+  "retention_rate": 0.3023
+}
