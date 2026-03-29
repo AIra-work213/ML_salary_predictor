@@ -1,4 +1,5 @@
 /venv
+.env
 download.py
 train.csv
 __pycache__/
